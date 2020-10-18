@@ -18,6 +18,6 @@ X will be either a number or a string. Both are valid.
 Other katas in this series:
 */
 
-function apple(x){
-
+const apple = (x) => {
+  return x * x > 1000 ? 'It\'s hotter than the sun!!' : 'Help yourself to a honeycomb Yorkie for the glovebox.';
 }
